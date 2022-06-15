@@ -1,0 +1,151 @@
+*{ 
+    margin:0;
+    padding:0;
+} 
+.conteudo, .conteudo2 {
+    background-image: url(fundo1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+#Navbar {
+    display: flex;  
+    height: 120px;      
+    background-color: rgba(0, 0, 0, 0.89);
+    width: 100%;
+    box-shadow: 1px 5px 20px rgba(14, 4, 4, 0.669);
+    justify-content: space-around;
+    align-items: center; 
+    position: fixed;
+    top: 0; 
+}
+#Navnarlist {
+    display: flex; 
+    width: 90%;
+    gap: 30px; 
+    align-items: center;
+    letter-spacing: 4px;    
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.Navbaritem {
+    font-family: 'Sarala', sans-serif;
+    display: flex; 
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    list-style-type: none;
+    display: inline; 
+}
+.conteudo { 
+     color: aliceblue;
+     font-size: 20px;
+     text-align: center;
+     font-family: 'sans-serif';
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+    justify-content: center;
+
+}
+.conteudo2 {
+    width: 100%;
+    height: 1500px;
+    letter-spacing: 4px; 
+}
+header {
+    width: 100vw;
+    height: 120px;
+}
+nav {
+    position: relative;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+.Logo {
+    width:auto;
+    height:100px ;
+}
+.Navbar_conteiner1 {
+    width: 70%;
+    height: auto;
+    margin-left:100px ;
+    letter-spacing: 4px; 
+    word-spacing: 20px;
+}
+.Navbar_conteiner2 {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Conteudo_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.txt_1 ,.txt_2{
+    top: 145px;
+    width: 100%;
+    height: 30%;
+    display:flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 25px;
+}
+.container-a {
+    width: 100%;
+    height: 50%;  
+}
+.container-b {
+   justify-content: center;
+   display: flex;
+   background-color:rgba(255, 140, 0, 0.889);
+   width: 100%;
+   height: 100%;
+   align-items: center; 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+}
+.txt_rodape {
+    line-height: 1.5;
+    padding: 20px;
+    border-top: 0.4px snow;
+    background-color: black;
+}
+.cnpj {
+    color: aliceblue;
+    height: 100%;
+    width: 30%;
+    
+}
+.midias {
+    color: aliceblue;
+    height: 100%;
+    
+}
+.redes {
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+}
+.redes li {
+    width: 4%;
+    height: 100%;
+    
+}
+html,body {
+    height: 100%;
+    overflow-x: hidden;
+}
